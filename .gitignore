@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+.ipynb_checkpoints/
+
+# Data & models (keep samples only)
+data/*.csv
+!data/sample/
+!data/sample/*.csv
+reports/*.pkl
+
+# Big artifacts
+*.log
+*.tmp
+*.bak
